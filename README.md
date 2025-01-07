@@ -25,8 +25,8 @@ Este proyecto fue creado como parte de mi proceso de aprendizaje a través del c
 
 En el futuro, planeo:
 
-Mejorar el diseño con más estilos CSS.
-Añadir interactividad utilizando JavaScript.
-Hacer la página responsive para dispositivos móviles.
+- Mejorar el diseño con más estilos CSS.
+- Añadir interactividad utilizando JavaScript.
+- Hacer la página responsive para dispositivos móviles.
 
-Agradezco a Alura Latam por brindarme el conocimiento necesario para completar este proyecto. ¡Este es solo el comienzo de mi camino como desarrollador web!
+Agradezco a @AluraLatam por brindarme el conocimiento necesario para completar este proyecto. ¡Este es solo el comienzo de mi camino como desarrollador web!
