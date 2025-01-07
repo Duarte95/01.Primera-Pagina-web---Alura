@@ -29,4 +29,4 @@ En el futuro, planeo:
 - Añadir interactividad utilizando JavaScript.
 - Hacer la página responsive para dispositivos móviles.
 
-Agradezco a @alura-es-cursos por brindarme el conocimiento necesario para completar este proyecto. ¡Este es solo el comienzo de mi camino como desarrollador web!
+Agradezco a @AluraLatam por brindarme el conocimiento necesario para completar este proyecto. ¡Este es solo el comienzo de mi camino como desarrollador web!
