@@ -1,0 +1,8 @@
+:root {
+  --color-caja: linear-gradient(45deg, rgb(153, 153, 153), #3a3a3a);
+  --fondo-footer: url(/assets/img/bg.jpg);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

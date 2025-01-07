@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0 minumin-scale=1.0"
+    />
+    <!--FavIcon-->
+    <link rel="icon" href="../icons/favicon.ico" type="image/x-icon" />
+    <!--Base-->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/components/header.css" />
+    <link rel="stylesheet" href="../css/components/nav.css" />
+    <link rel="stylesheet" href="../css/components/footer.css" />
+    <!--Personalizado-->
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <link rel="stylesheet" href="../css/components/forms.css" />
+    <link rel="stylesheet" href="../css/components/buttons.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <div class="caja">
+        <h1>
+          <img src="../img/logo.png" class="logo1" alt="barberia_alura" />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="../../index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contactos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <form>
+        <!--etiqueta para representar formularios, por defecto al enviar, se reinician los inputs-->
+
+        <label for="nombreapedillo">Nombre y Apellido:</label>
+        <input
+          type="text"
+          id="nombreapellido"
+          class="input-padron"
+          required
+          placeholder="Juan Perez"
+        />
+
+        <label for="correo">Correo Electronico:</label>
+        <input
+          type="email"
+          id="correo"
+          class="input-padron"
+          required
+          placeholder="email@dominio.com"
+        />
+
+        <label for="numerotelefono">Numero de Telefono:</label>
+        <input
+          type="tel"
+          id="numerotelefono"
+          class="input-padron"
+          required
+          placeholder="+(00) 123 4567"
+        />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea
+          id="mensaje"
+          cols="70"
+          rows="10"
+          class="input-padron"
+          required
+          placeholder="Escribe algo..."
+        ></textarea>
+        <!--required se usa para indicar que llenar ese campo es obligatorio-->
+        <!--placeholder deja un fondo guia escrito-->
+        <fieldset>
+          <legend>¿Como le gustaria ser contactado?</legend>
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-email"
+            />Email</label
+          >
+
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contacto"
+              value="whatsapp"
+              id="radio-whatsapp"
+              checked
+            />Whatsapp</label
+          >
+
+          <label for="radio-telefono"
+            ><input
+              type="radio"
+              name="contacto"
+              value="telefono"
+              id="radio-telefono"
+            />Telefono</label
+          >
+          <!--En el input tipo radio, por defecto se pueden seleccionar todos a la vez, pero usando el atributo name="" los defino a todos como parte del mismo grupo, permitiendo que solo se selecione 1 del grupo-->
+          <!--Con el "checked dentro del input, dejamos seleccionado algo por defecto"-->
+        </fieldset>
+
+        <fieldset>
+          <legend>¿En que horario desea ser contactado?</legend>
+          <select name="" id="">
+            <option value="">Mañana</option>
+            <option value="">Tarde</option>
+            <option value="">Noche</option>
+          </select>
+        </fieldset>
+
+        <label class="checkbox"
+          ><input type="checkbox" checked />¿Le gustaria que le notificaramos
+          novedades sobre a barberia Alura?</label
+        >
+        <input type="submit" value="Enviar Formulario" class="boton_envio" />
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <td>Dia</td>
+            <td>horario</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lunes</td>
+            <td>8:00 am - 5:00 pm</td>
+          </tr>
+          <tr>
+            <td>Miercoles</td>
+            <td>8:00 am - 5:00 pm</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td>8:00 am - 5:00 pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <img src="../img/logo-blanco.png" class="loguito" alt="barberia_alura" />
+      <p class="copyright">&copy Copy Rigth Barberia Alura - 2020</p>
+      <!--Usar una pagina llamada unicode que te da los codigos de caracteres especiales y emojis-->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+form {
+  margin: 40px 0;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(67, 67, 252);
+  box-shadow: 3px 3px 10px rgb(99, 99, 233);
+}
+
+.checkbox {
+  margin: 20px 0;
+}

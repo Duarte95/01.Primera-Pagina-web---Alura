@@ -1,0 +1,21 @@
+.boton_envio {
+  width: 40%;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 0;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  background: rgb(99, 99, 233);
+  /*opacity: 20%;funciona :3*/
+  transition: 1.5s all; /*efecto de cambio en el tiempo 1.5s (segundos) y la condicion*/
+  cursor: pointer; /*cambia el cursor de fleca por el de la manito*/
+  box-shadow: 3px 3px 10px rgb(99, 99, 233);
+}
+
+.boton_envio:hover {
+  background: rgb(32, 32, 209);
+  transform: scale(
+    1.1
+  ); /*rotate(360deg);*/ /*en este caso hace zoom, hay que ver que mas cambia (el 1.2 es el 1.2%), el evento rotate debe ser 1 sola vez, moverlo o varias causa repeticion del movimiento*/
+}

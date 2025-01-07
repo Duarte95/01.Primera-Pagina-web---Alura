@@ -1,0 +1,50 @@
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 10px;
+  /*puedo usar border radius y colocar cada valor distinto 
+    que va en sentido de las agujas del reloj siendo el primero, el borde superior izquierdo,
+    tambien se pueden poner cada linea independiente como border-top-letf o rigth*/
+}
+
+.productos li:hover {
+  border-color: red;
+}
+
+.productos li:active {
+  /*active captura el clik*/
+  border-color: green;
+}
+
+.productos h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.productos li:hover h2 {
+  font-size: 33px;
+}
+
+.productos-descripcion {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.productos-precio {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}

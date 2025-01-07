@@ -1,0 +1,17 @@
+footer {
+  background: var(
+    --fondo-footer
+  ); /*La imagen es cuadrada pero por ser bg la repite hasta ocupar todo el espacio*/
+  text-align: center;
+  padding: 5px;
+}
+
+.loguito {
+  height: 100px;
+  width: auto;
+}
+
+.copyright {
+  color: white;
+  font-size: 13px; /*no puedo posicionarlo aparte no se porque me choca con el selectro p si aqui esta por clase*/
+}

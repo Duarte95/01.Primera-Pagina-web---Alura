@@ -1,0 +1,34 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 2px solid black;
+    border-color: black;/*rgb(99,99, 233);*/
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+/*body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #555555;
+    border-radius: 5px;
+}*/
+/*inline: ocupa solo su contenido --> los input y lebel lo traen por defecto*/
+/*block: ocupa todo el espacio*/
+/*jerarquia css ejemplo con <P>, form p esta por encima de  p */
+/* seleccionar de identificacion "#sel" ; seleccionador de clase ".sel" ; seleccionador de etiqueta "etiqueta"
