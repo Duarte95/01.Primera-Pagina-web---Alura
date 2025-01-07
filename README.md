@@ -19,7 +19,8 @@ Este es un proyecto de una página web básica que he creado como parte de mi ap
    ```bash
    git clone https://github.com/Duarte95/Primera-Pagina-web---Alura.git
 
-   Aprendizaje
+## Aprendizaje
+
 Este proyecto fue creado como parte de mi proceso de aprendizaje a través del curso de Alura Latam. Durante el curso, aprendí sobre los fundamentos de HTML y CSS, y pude aplicar estos conocimientos para crear una página web simple pero funcional.
 
 En el futuro, planeo:
