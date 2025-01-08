@@ -17,7 +17,7 @@ Este es un proyecto de una página web básica que he creado como parte de mi ap
 
 1. Clona este repositorio a tu máquina local:
    ```bash
-   git clone https://github.com/Duarte95/Primera-Pagina-web---Alura.git
+   git clone https://github.com/Duarte95/01.Primera-Pagina-web---Alura.git
 
 ## Aprendizaje
 
